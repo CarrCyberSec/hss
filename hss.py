@@ -46,7 +46,7 @@ def sha1_hash_it():
 #Select hash function
 add_file = input("Would you like to hash a file?(Y/N): ")
 while add_file == "Y":
-    print("Available hash algorithims, 1: MD5   2: SHA256    3: SHA1")
+    print("Available hash algorithms, 1: MD5   2: SHA256    3: SHA1")
     hash_type = input("Which hash algorithm would you like to use?: ")
     print("you have selected:", hash_type)
     if hash_type == "1":
